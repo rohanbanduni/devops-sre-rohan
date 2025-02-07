@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools {
-        nodejs "nodejs-20.6.0"
+        nodejs "rohan-node-20.6.0"
     }
     stages{
         stage('npm version check')
